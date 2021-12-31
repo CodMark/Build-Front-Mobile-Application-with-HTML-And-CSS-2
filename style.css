@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdcfe8;
+    color: #d8adf8;
+}
+.mobile-frem{
+    width: 303px;
+    height: 620px;
+    background: white;
+    border-radius: 46px;
+    overflow: hidden;
+}
+.mobile-frem .frem-f{
+    width: 100%;
+    height: 100%;
+    background: rgb(20 16 101);
+    position: relative;
+}
+.top-cam{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./next_gen-land_1.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    border-bottom-right-radius: 68px;
+}
+.top-cam .logo{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    background: white;
+    top: 11rem;
+    left: 3rem;
+    border-radius: 33%;
+    padding: 3px;
+    box-shadow: 7px 12px 20px #ff225c1f;
+}
+.top-cam .logo img{
+    width: 100%;
+}
+.bottom-cam{
+    width: 100%;
+    height: 63%;
+    background: white;
+    position: relative;
+    border-top-left-radius: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom-cam::before{
+    content: '';
+    width: 9rem;
+    height: 7rem;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: -96px;
+    right: 0px;
+}
+.bottom-cam h2{
+    position: absolute;
+    top: 45px;
+    left: 2rem;
+    text-align: center;
+    color: black;
+}
+.bottom-cam p{
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    font-size: 18px;
+    color: #6e6e6e;
+    font-family: sans-serif;
+}
+.bottom-cam img{
+    width: 12rem;
+    position: absolute;
+    top: 157px;
+}
+.bottom-cam button{
+    position: absolute;
+    bottom: 1rem;
+    border: none;
+    padding: 12px;
+    border-radius: 16px;
+    background: linear-gradient(160deg, #ff0077, #ff6628);
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 9px 9px 20px #0000002a;
+}
+.bottom-cam button:focus{
+    background: #ff3d79;
+}
